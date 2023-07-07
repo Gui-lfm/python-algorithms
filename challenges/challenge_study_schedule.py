@@ -1,4 +1,4 @@
-def study_schedule(permanence_period: list[tuple], target_time):
+def study_schedule(permanence_period: list[tuple], target_time: int) -> int:
     if not isinstance(target_time, int):
         return None
 
